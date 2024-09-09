@@ -11,6 +11,7 @@ from nltk import ngrams
 import re
 
 # Initialize NLTK stopwords
+nltk.download('vader_lexicon')
 nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 
